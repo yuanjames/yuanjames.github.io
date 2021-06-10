@@ -11,7 +11,7 @@ description:
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: 
    
 
 news: true  # includes a list of news items
