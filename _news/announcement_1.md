@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-06-10 18:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+IEEE Congress on Evolutionary Computation 28.06-1.07.2021 Kraków, Poland (VIRTUAL)
