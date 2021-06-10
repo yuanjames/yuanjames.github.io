@@ -19,4 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D candidate at Heriot-Watt University supervised by Dr Wei Pang, Prof. Mike Chantler and Prof. George M. Coghill (external). My research interests are Machine Learning; Deep Learning (especially in Graph Neural Networks and AutoML); and Blockchain.
+Yingfang(James) Yuan is a PhD candidate working under the supervision of Dr Wei Pang, Prof. Mike Chantler and Prof. George M. Coghill (external) in the School of Mathematical and Computer Sciences at Heriot-Watt University. Yingfang received his MSc in Big Data and High-Performance Computing at University of Liverpool. His research interests include Machine Learning; Deep Learning (especially in Graph Neural Networks and AutoML); Economics, and Blockchain. He particularly focused on investigating the impact of hyperparameter optimisation on graph neural networks applied to predict molecular properties.
