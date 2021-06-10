@@ -3,16 +3,16 @@ layout: about
 title: about
 permalink: /
 description:  
-    <p>yyy2 at hw dot ac dot uk</p>
-    <p>EMB 1.50</p>
-    <p>Heriot-Watt University</p>
-    <p>Edinburgh, UK</p>
+
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: 
-   
+  address: >
+    <p>yyy2 at hw dot ac dot uk</p>
+    <p>EMB 1.50</p>
+    <p>Heriot-Watt University</p>
+    <p>Edinburgh, UK</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
