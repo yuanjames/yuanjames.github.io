@@ -22,3 +22,11 @@ Academic Group Member
 <li><p> LAIV, Heriot-Watt University</p></li>
 <li><p> Machine Learning Reading Group, Aberdeen University</p></li>
 </ul>
+
+Skills
+<ul>
+<li><p>Python (RdKit, Optuna, Pytorch, TensorFlow, Scikit-learn, Deepchem, DGL), C, Java, Scratch</p></li>
+<li><p>Git, Markdown, Jekyll, Latex, HTML</p></li>
+<li><P>Hadoop</p></li>
+<li><p>Ubuntu, Windows</p></li>
+</ul>
