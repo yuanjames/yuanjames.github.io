@@ -142,7 +142,7 @@ scholar:
   last_name: Yuan
   first_name: [Yingfang]
 
-  style: ieee-with-url
+  style: apa
   locale: en
 
   source: /_bibliography/
