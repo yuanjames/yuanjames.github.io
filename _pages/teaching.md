@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: academic activities
+title: Academic Activities
 description:
 nav: true
 ---
