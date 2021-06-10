@@ -15,3 +15,10 @@ horizontal: false
 <li><p>Sep 2013 ~ Sep 2014, Department Of Computer Science, <a href="http://web.cyut.edu.tw/index.php?Lang=en">Chaoyang University of Technology</a>, Taiwan, Visiting Student.</p></li>
 <li><p>Sep 2012 ~ Sep 2015, Department Of Computer Science, Chengdu Neusoft Universit, Sichuan, Diploma.</p></li>
 </ul>
+
+
+Academic Group Member
+<ul>
+<li><p> LAIV, Heriot-Watt University</p></li>
+<li><p> Machine Learning Reading Group, Aberdeen University</p></li>
+</ul>
