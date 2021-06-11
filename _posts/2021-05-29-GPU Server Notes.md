@@ -2,6 +2,7 @@
 layout: post
 comments: false
 title : GPUs Server Notes
+description: Guidelines for SMML HWU GPUs
 categories: [Knowlegde Note]
 ---
 
