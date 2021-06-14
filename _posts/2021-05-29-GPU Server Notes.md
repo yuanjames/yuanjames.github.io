@@ -8,9 +8,9 @@ categories: [Knowlegde Note]
 
 1. Contact HW MACS admin to get the grant for accessing GPUs.
 
-2. The command `ssh xxx@ssh.macs.hw.ac.uk` with the password to access into MACS network. 
+2. The command `ssh xxx@ssh.macs.hw.ac.uk` with the password to access into MACS network. You can use [ssh](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) in MacOS/Linux terminal or tools (e.g., PuTTY, X2Go) in Windows.
 
-3. The command `ssh thanos` to connect GPUs resources. You may find the files and directory by `ls`, or `ls -l` for more details. thanos and ssh.macs.hw.ac.uk share the same home directonry.
+3. The command `ssh thanos` to connect GPUs resources. You may find the files and directory by `ls`, or `ls -l` for more details. `thanos` and `ssh.macs.hw.ac.uk` share the same home directonry.
 
 4. You may find the conda from `/opt/anaconda3/bin`. Conda is an open-source, cross-platform, language-agnostic package manager and environment management system.
 
@@ -30,11 +30,11 @@ categories: [Knowlegde Note]
 
 8. The command `conda create -n myenv python=3.*` is used to create your python environment.
 
-9. After you create the myenv, you can use the command `source activate myenv` to activate and get in the environment.
+9. After you create the myenv, you can use the command `source activate myenv` (old conda version) to activate and get in the environment.
 
 10. `conda ***` install your required packages/libs.
 
-11. The Command `nvidia-smi` can be used to check GPU peformance and information, `nvidia-smi -l 1` to update the GPU (dynamic) information per second. `htop` can be used to check CPU information.
+11. The command `nvidia-smi` can be used to check GPU peformance and information, `nvidia-smi -l 1` to update the GPU (dynamic) information per second. `htop` can be used to check CPU information.
 
 12. If you suspend your programme manually, remember to release GPU memory by `kill -9 PID`.
 
@@ -44,11 +44,11 @@ categories: [Knowlegde Note]
 
 15. If you have some outputs (e.g. txt, csv), you can use `scp xxx@ssh.macs.hw.ac.uk:~/xxx/xxx/targetfile ~/localfile` to copy the file from server to local. see details [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol#:~:text=Secure%20copy%20protocol%20(SCP)%20is,Protocol%20and%20the%20program%20itself.)
 
-16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
+16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you still need to open terminal in Vscode to 'ssh thanos' and activate conda environment after you log in the 'jove'. Then you can switch your local environment to the conda environment in the server.
 
 17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
 
-18. For convenience, you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
+18. For convenience, (In Linux) you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
 
                 ```
                 Host hw
