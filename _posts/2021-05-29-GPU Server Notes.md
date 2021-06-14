@@ -44,7 +44,20 @@ categories: [Knowlegde Note]
 
 15. If you have some outputs (e.g. txt, csv), you can use `scp xxx@ssh.macs.hw.ac.uk:~/xxx/xxx/targetfile ~/localfile` to copy the file from server to local. see details [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol#:~:text=Secure%20copy%20protocol%20(SCP)%20is,Protocol%20and%20the%20program%20itself.)
 
-16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you still need to open terminal in Vscode to 'ssh thanos' and activate conda environment after you log in the 'jove'. Then you can switch your local environment to the conda environment in the server.
+16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you need to config the ssh with the jump from jove to thanos (see below). Then you can set the conda environment in the server as your local environment. (P.S. You need to download Openssh via Windows10's 'manage optional feature' as admin if you use Windows)
+
+        ```
+        Host jove
+        HostName ssh.macs.hw.ac.uk
+        User xxxx
+
+        Host thanos
+        HostName thanos.macs.hw.ac.uk
+        User xxx
+        ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -W %h:%p jove ## (windows)
+        ProxyCommand ssh -W %h:%p jove ## (Ubuntu)
+
+        ```
 
 17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
 
