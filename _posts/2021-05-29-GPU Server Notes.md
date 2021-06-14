@@ -18,13 +18,13 @@ categories: [Knowlegde Note]
 
 6. The `bashrc` file is not executed (for no login shell), so you need to `vim ~/.bash_profile` and add the below code. Otherwise, you need to do `source ~/.bashrc` every time when you log in by `ssh`.
 
-        ```
-        if [ -f ~/.bashrc ] ; then
+```
+if [ -f ~/.bashrc ] ; then
 
-        source .bashrc
+source .bashrc
 
-        fi
-        ```
+fi
+```
 
 7. Execute the command `source ~/.bashrc` to take effect.
 
@@ -46,30 +46,30 @@ categories: [Knowlegde Note]
 
 16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you need to config the ssh with the jump from jove to thanos (see below). Then you can set the conda environment in the server as your local environment. (P.S. You need to download Openssh via Windows10's 'manage optional feature' as admin if you use Windows)
 
-        ```
-        Host jove
-        HostName ssh.macs.hw.ac.uk
-        User xxxx
+```
+Host jove
+HostName ssh.macs.hw.ac.uk
+User xxxx
 
-        Host thanos
-        HostName thanos.macs.hw.ac.uk
-        User xxx
-        ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -W %h:%p jove ## (windows)
-        ProxyCommand ssh -W %h:%p jove ## (Ubuntu)
+Host thanos
+HostName thanos.macs.hw.ac.uk
+User xxx
+ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -W %h:%p jove ## (windows)
+ProxyCommand ssh -W %h:%p jove ## (Ubuntu)
 
-        ```
+```
 
 17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
 
 18. For convenience, (In Linux) you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
 
-                ```
-                Host hw
+```
+Host hw
 
-                Hostname ssh.macs.hw.ac.uk
+Hostname ssh.macs.hw.ac.uk
 
-                User xxx
-                ```
+User xxx
+```
 
 19. You may favour [tmux terminal](https://en.wikipedia.org/wiki/Tmux), it provides more features than ubuntu terminal.
 
