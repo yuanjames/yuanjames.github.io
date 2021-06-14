@@ -49,13 +49,14 @@ categories: [Knowlegde Note]
 17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
 
 18. For convenience, you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
+
                 ```
                 Host hw
 
                 Hostname ssh.macs.hw.ac.uk
 
                 User xxx
-                ```.
+                ```
 
 19. You may favour [tmux terminal](https://en.wikipedia.org/wiki/Tmux), it provides more features than ubuntu terminal.
 
