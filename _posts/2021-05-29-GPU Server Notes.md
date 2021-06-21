@@ -8,9 +8,9 @@ categories: [Knowlegde Note]
 
 1. Contact HW MACS admin to get the grant for accessing GPUs.
 
-2. The command `ssh xxx@ssh.macs.hw.ac.uk` with the password to access into MACS network. 
+2. The command `ssh xxx@ssh.macs.hw.ac.uk` with the password to access into MACS network. You can use [ssh](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) in MacOS/Linux terminal or tools (e.g., PuTTY, X2Go) in Windows.
 
-3. The command `ssh thanos` to connect GPUs resources. You may find the files and directory by `ls`, or `ls -l` for more details. thanos and ssh.macs.hw.ac.uk share the same home directonry.
+3. The command `ssh thanos` to connect GPUs resources. You may find the files and directory by `ls`, or `ls -l` for more details. `thanos` and `ssh.macs.hw.ac.uk` share the same home directonry.
 
 4. You may find the conda from `/opt/anaconda3/bin`. Conda is an open-source, cross-platform, language-agnostic package manager and environment management system.
 
@@ -18,23 +18,23 @@ categories: [Knowlegde Note]
 
 6. The `bashrc` file is not executed (for no login shell), so you need to `vim ~/.bash_profile` and add the below code. Otherwise, you need to do `source ~/.bashrc` every time when you log in by `ssh`.
 
-        ```
+        
         if [ -f ~/.bashrc ] ; then
 
         source .bashrc
 
         fi
-        ```
+        
 
 7. Execute the command `source ~/.bashrc` to take effect.
 
 8. The command `conda create -n myenv python=3.*` is used to create your python environment.
 
-9. After you create the myenv, you can use the command `source activate myenv` to activate and get in the environment.
+9. After you create the myenv, you can use the command `source activate myenv` (old conda version) to activate and get in the environment.
 
 10. `conda ***` install your required packages/libs.
 
-11. The Command `nvidia-smi` can be used to check GPU peformance and information, `nvidia-smi -l 1` to update the GPU (dynamic) information per second. `htop` can be used to check CPU information.
+11. The command `nvidia-smi` can be used to check GPU peformance and information, `nvidia-smi -l 1` to update the GPU (dynamic) information per second. `htop` can be used to check CPU information.
 
 12. If you suspend your programme manually, remember to release GPU memory by `kill -9 PID`.
 
@@ -44,18 +44,32 @@ categories: [Knowlegde Note]
 
 15. If you have some outputs (e.g. txt, csv), you can use `scp xxx@ssh.macs.hw.ac.uk:~/xxx/xxx/targetfile ~/localfile` to copy the file from server to local. see details [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol#:~:text=Secure%20copy%20protocol%20(SCP)%20is,Protocol%20and%20the%20program%20itself.)
 
-16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
+16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you need to config the ssh with the jump from jove to thanos (see below). Then you can set the conda environment in the server as your local environment. (P.S. You need to download Openssh via Windows10's 'manage optional feature' as admin if you use Windows)
+
+       
+        Host jove
+        HostName ssh.macs.hw.ac.uk
+        User xxxx
+
+        Host thanos
+        HostName thanos.macs.hw.ac.uk
+        User xxx
+        ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -W %h:%p jove ## (windows)
+        ProxyCommand ssh -W %h:%p jove ## (Ubuntu)
+
+  
 
 17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
 
-18. For convenience, you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
-                ```
-                Host hw
+18. For convenience, (In Linux) you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
 
-                Hostname ssh.macs.hw.ac.uk
+        
+        Host hw
 
-                User xxx
-                ```.
+        Hostname ssh.macs.hw.ac.uk
+
+        User xxx
+     
 
 19. You may favour [tmux terminal](https://en.wikipedia.org/wiki/Tmux), it provides more features than ubuntu terminal.
 
