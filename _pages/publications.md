@@ -8,7 +8,7 @@ nav: true
 ---
 <style>
 p.small {
-  line-height: 0.7;
+  line-height: 0.1;
 }
 </style>
 
