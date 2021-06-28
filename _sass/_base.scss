@@ -403,14 +403,14 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 0.5px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 1px solid;
+          border-bottom: 0.5px solid;
           font-style: normal;
         }
       }
@@ -420,8 +420,8 @@ footer.sticky-bottom {
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -441,11 +441,11 @@ footer.sticky-bottom {
 
         p {
           line-height: 0.5em;
-          margin: 2px;
+          margin: 0.5px;
         }
         pre {
           font-size: 1em;
-          line-height: 1.4em;
+          line-height: 0.2em;
           padding: 10px;
         }
       }
