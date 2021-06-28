@@ -6,6 +6,12 @@ description:
 years: [2021,2019]
 nav: true
 ---
+<style>
+p.small {
+  line-height: 0.7;
+}
+</style>
+
 
 <div class="publications">
 <a href="https://scholar.google.com/citations?user=nT2T8M4AAAAJ&hl=en">Google Scholar</a>
@@ -13,7 +19,9 @@ nav: true
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
+  <p class="small">
   {% bibliography -f papers -q @*[year={{y}}]* %}
+  </p>
 {% endfor %}
 
 </div>
