@@ -1,8 +1,5 @@
 ---
 ---
-<style>
-.divcss5-b{margin:0 8px} 
-</style>
 
 <div class="row">
   <div class="col-sm-2 abbr">
@@ -19,8 +16,8 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="divcss5-b">{{entry.title}}</div>
-      <div class="divcss5-b">
+      <div class="title">{{entry.title}}</div>
+      <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
