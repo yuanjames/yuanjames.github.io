@@ -358,7 +358,7 @@ footer.sticky-bottom {
     margin-bottom: 1em;
   }
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     span {
       font-size: 1.5rem;
     }
@@ -377,7 +377,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -440,8 +440,8 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
 
         p {
-          line-height: 1em;
-          margin: 5px;
+          line-height: 0.5em;
+          margin: 2px;
         }
         pre {
           font-size: 1em;
