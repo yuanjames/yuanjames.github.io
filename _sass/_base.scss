@@ -403,14 +403,14 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 0.5px dashed var(--global-theme-color);
+          border-bottom: 0.1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 0.5px solid;
+          border-bottom: 0.1px solid;
           font-style: normal;
         }
       }
@@ -440,8 +440,8 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
 
         p {
-          line-height: 0.5em;
-          margin: 0.5px;
+          line-height: 0.1em;
+          margin: 0.1px;
         }
         pre {
           font-size: 1em;
