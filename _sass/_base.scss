@@ -6,7 +6,6 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
-  font-family: Helvetica,;
 }
 
 article div {
@@ -50,7 +49,6 @@ a, table.table a {
 .profile {
   margin-left: 1rem;
   width: 100%;
-  font-family: -apple-system, Cantarell;
 
   .address {
     margin-bottom: 5px;
@@ -349,7 +347,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 0.1rem;
+  margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -358,7 +356,7 @@ footer.sticky-bottom {
     margin-bottom: 1em;
   }
   h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     span {
       font-size: 1.5rem;
     }
@@ -374,12 +372,13 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
+    margin-top: 0;
 
     li {
-      margin-bottom: 0;
+      margin-bottom: 1rem;
       .abbr {
         height: 2rem;
-        margin-bottom: 0.1rem;
+        margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -399,19 +398,17 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
-        margin-top: 0;
-        margin-bottom: 0.2px;
       }
       .author {
         a {
-          border-bottom: 0.1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 0.1px solid;
+          border-bottom: 1px solid;
           font-style: normal;
         }
       }
@@ -421,8 +418,8 @@ footer.sticky-bottom {
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
-          padding-top: 0.1rem;
-          padding-bottom: 0.1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -441,12 +438,12 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
 
         p {
-          line-height: 0.1em;
-          margin: 0.1px;
+          line-height: 1.4em;
+          margin: 10px;
         }
         pre {
           font-size: 1em;
-          line-height: 0.2em;
+          line-height: 1.4em;
           padding: 10px;
         }
       }
