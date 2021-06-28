@@ -20,7 +20,7 @@
       {{reference}}
     {% else %}
       <div class="divcss5-b">{{entry.title}}</div>
-      <div class="author">
+      <div class="divcss5-b">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
