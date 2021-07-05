@@ -3,15 +3,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>
-  {% if site.title == "blank" %}
-    {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
-  {% else %}
-    {{ site.title }}
-  {% endif %}
-  {% if page.title != "blank" and page.url != "/" %}
-    | {{ page.title }}
-  {% endif %}
-  </title>
+{% if site.title == "blank" %}
+  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+{% else %}
+  {{ site.title }}
+{% endif %}
+{% if page.title != "blank" and page.url != "/" %}
+  | {{ page.title }}
+{% endif %}
+</title>
 <meta name="description" content="{{ site.description }}">
 
 <!-- Open Graph -->
