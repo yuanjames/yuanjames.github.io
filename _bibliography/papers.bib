@@ -38,12 +38,33 @@ series = {GECCO '21}
   year={2021}
 }
 
-@article{yuan2021hyperparameters,
-  abbr={GECCO ECADA},
-  title={Which Hyperparameters to Optimise? An Investigation of Evolutionary Hyperparameter Optimisation in Graph Neural Network For Molecular Property Prediction},
-  author={Yuan, Yingfang and Wang, Wenjun and Pang, Wei},
-  journal={arXiv preprint arXiv:2104.06046},
-  year={2021}
+@inproceedings{10.1145/3449726.3463192,
+author = {Yuan, Yingfang and Wang, Wenjun and Pang, Wei},
+abbr={GECCO ECADA},
+title = {Which Hyperparameters to Optimise? An Investigation of Evolutionary Hyperparameter Optimisation in Graph Neural Network for Molecular Property Prediction},
+year = {2021},
+isbn = {9781450383516},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3449726.3463192},
+doi = {10.1145/3449726.3463192},
+abstract = {Most GNNs for molecular property prediction are proposed based on the idea of learning
+the representations for the nodes by aggregating the information of their neighbour
+nodes in graph layers. Then, the representations can be passed to subsequent task-specific
+layers to deal with individual downstream tasks. Facing real-world molecular problems,
+the hyperparameter optimisation for those layers are vital. In this research, we focus
+on the impact of selecting two types of GNN hyperparameters, those belonging to graph
+layers and those of task-specific layers, on the performance of GNN for molecular
+property prediction. In our experiments, we employed a state-of-the-art evolutionary
+algorithm (i.e., CMA-ES) for HPO. The results reveal that optimising the two types
+of hyperparameters separately can improve GNNs' performance, but optimising both types
+of hyperparameters simultaneously will lead to predominant improvements.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+pages = {1403–1404},
+numpages = {2},
+keywords = {molecular property prediction, hyperparameter optimisation, graph neural networks, evolutionary computation},
+location = {Lille, France},
+series = {GECCO '21}
 }
 
 @article{yuan2021novel,
