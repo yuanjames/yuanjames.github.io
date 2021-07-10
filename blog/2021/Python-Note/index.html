@@ -11,6 +11,8 @@
   Yingfang  Yuan
 
 
+  | Python Note
+
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme for academics">
 
@@ -34,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2021/Python-Note/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -113,8 +115,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/teaching/">
                 Academic Activities
@@ -166,82 +166,38 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <ul class="post-list">
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/Python-Note/">Python Note</a></h5>
-        <p class="post-meta">June 21, 2021</p>
-        <p>Python Decorator, functools.wraps, functools.update_wrapper, partial differences.</p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/Python-Tricky/">Python Notes</a></h5>
-        <p class="post-meta">June 1, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/GPU-Server-Notes/">GPUs Server Notes</a></h5>
-        <p class="post-meta">May 29, 2021</p>
-        <p>Guidelines for SMML HWU GPUs</p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/GNNFT/">Fourier transform and GNN</a></h5>
-        <p class="post-meta">May 20, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/Erratum/">Erratum</a></h5>
-        <p class="post-meta">April 27, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/MolCLR/">MolCLR</a></h5>
-        <p class="post-meta">March 1, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/CMA-ES-TPE/">CMA-ES and TPE</a></h5>
-        <p class="post-meta">February 6, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h5><a class="post-title" href="/blog/2021/Optuna/">Optuna User-defined Sampler</a></h5>
-        <p class="post-meta">January 19, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Python Note</h1>
+    <p class="post-meta">June 21, 2021</p>
+  </header>
+
+  <article class="post-content">
+    <p>Decorators: A Python decorator is a specific change to the Python syntax that allows us to add more code to your orginal code.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def my_decorator(func):
+    @wrap(func)
+    def wrapper():
+        print("Something is happening before the function is called.")
+        return func()
+    print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_whee():
+    print("Whee!")
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">functools.wraps</code> in fact is equivalent to the combination of <code class="language-plaintext highlighter-rouge">partial()</code> and <code class="language-plaintext highlighter-rouge">update_wrapper()</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">t=partial(f, x, z=g)</code> is used to generate the new ‘<code class="language-plaintext highlighter-rouge">f</code>’ function <code class="language-plaintext highlighter-rouge">t</code> with the supplied new positional argument <code class="language-plaintext highlighter-rouge">x</code> or keyword argument <code class="language-plaintext highlighter-rouge">z</code>. Meanwhile, new function <code class="language-plaintext highlighter-rouge">t</code> will lose the orginal details of it, but you can call <code class="language-plaintext highlighter-rouge">update_wrapper(t,f)</code> to solve this issue. When you are applying decorator, you still can use ‘@wrap(say_whee)’ to keep the <code class="language-plaintext highlighter-rouge">__doc__</code> and <code class="language-plaintext highlighter-rouge">__name__</code> of func with it, instead of <code class="language-plaintext highlighter-rouge">wrapper</code></p>
+
+  </article>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
 
 </div>
 
