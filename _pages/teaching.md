@@ -6,8 +6,8 @@ description:
 nav: true
 ---
 
-<p><span style="font-weight:bold;">Speaker</span> ~ <a href="https://cec2021.mini.pw.edu.pl">The Genetic and Evolutionary Computation Conference</a>, July 10, 2021.</p> 
-<p><span style="font-weight:bold;">Speaker</span> ~ <a href="https://cec2021.mini.pw.edu.pl">IEEE Congress on Evolutionary Computation</a>, June 29, 2021.</p> 
+<p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">The Genetic and Evolutionary Computation Conference</a>, July 10,13, 2021.</p> 
+<p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">IEEE Congress on Evolutionary Computation</a>, June 29, 2021.</p> 
 
 <p><span style="font-weight:bold;">Research Assistant </span> ~ <a href="https://www.manufacturingimmortality.com/">EPSRC 'Manufacturing Immortality'</a>, June 2021.</p> 
 <p>UKRI-BBSRC Artificial intelligence in the biosciences, 19 May 2021.</p>
