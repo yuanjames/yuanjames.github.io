@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Georgia', serif;
 }
 
 hr {
@@ -198,7 +199,7 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: serif;
+    font-family: monospace;
 
     p {
       display: inline-block;
