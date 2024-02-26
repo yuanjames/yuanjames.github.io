@@ -1,0 +1,99 @@
+---
+layout: post
+comments: false
+title : GPUs Server Notes
+description: Guidelines for SMML HWU GPUs
+categories: knowlegde-note
+date: 2022-06-09 00:00:00
+---
+
+**UPDATE 2022**
+
+Due to the university security updates, the ways of accessing our GPU server and uploading/updating your code are changed, and one new solution is shown step by step below.
+
+1. Email `ishelp@hw.ac.uk` for granting access, quoting your school and the machines you need to log in to.
+2. Once you are granted, you will be provided with a secret key to configure the authenticator app (e.g., Microsoft Authenticator or Google Authenticator).
+3. Now, you should be able to connect to the university gateway by `ssh -p 44788 usr @sshgw.hw.ac.uk`. You will be asked password and verification code, the latter comes from the authenticator app. (p.s, sshgw looks like a security door for anyone who wants to visit university server from external network)
+4. If you already succeeded to log in `sshgw`, now you can continue to do `ssh usr@jove.macs.hw.ac.uk`, and `ssh thanos`. Now, you arrive the destination.
+5. The problem we are facing is `sshgw` may restrict some applications. For example, in VScode, the plugin Remote Explore is disabled, the connection is always suspended after the establishing. Therefore, we need the `port forwarding`.
+6. In my case, I used FileZilla to upload code and download experimental results. FileZilla is the same as most of the applications, not allowed to directly connect to `jove` because we need to pass the security door `sshgw` at first. Obviously, our connection has twice jumps, `from local to sshw` and `from sshw to jove`. Therefore, `sshw` seems like a proxy. 
+7. Download PuTTy. In `Session`, type in host name `sshgw.hw.ac.uk` with port 44788. In `Connection-SSH-Tunnels`, select `Dynamic`, and type in any port number you want to use in `Source port`, click `Add`, for example, 5000. Then, click Open, you will need to type in password and verification code. If the above steps done, you open a tunnel from you localhost port 5000 to university `sshgw`, i.e, your any requests sent via the port 5000 will be directed to the sshgw to the destination. 
+8. Download FileZilla. Open `site manager`, you can add a host `jove.macs.hw.ac.uk` with selecting `SFTP protocal` and denoting `User` with your username.
+9. Go to the `Edit-Settings-Generic Proxy`, select `SOCKS5` and denote `Proxy host` with localhost and `Proxy port` with 5000.
+10. Now, you should be able to access GPU file system via FileZilla.
+
+**----------------------------------------------Deprecated-----------------------------------------------**
+1. Contact HW MACS admin to get the grant for accessing GPUs.
+
+2. The command `ssh xxx@ssh.macs.hw.ac.uk` with the password to access into MACS network. You can use [ssh](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) in MacOS/Linux terminal or tools (e.g., PuTTY, X2Go) in Windows.
+
+3. The command `ssh thanos` to connect GPUs resources. You may find the files and directory by `ls`, or `ls -l` for more details. `thanos` and `ssh.macs.hw.ac.uk` share the same home directonry.
+
+4. You may find the conda from `/opt/anaconda3/bin`. Conda is an open-source, cross-platform, language-agnostic package manager and environment management system.
+
+5. Add the path `'export PATH="/opt/anaconda3/bin:$PATH"'` into `~/.bashrc` . Then, you can use the command `conda` in your home directory.
+
+6. The `bashrc` file is not executed (for no login shell), so you need to `vim ~/.bash_profile` and add the below code. Otherwise, you need to do `source ~/.bashrc` every time when you log in by `ssh`.
+
+        
+        if [ -f ~/.bashrc ] ; then
+
+        source .bashrc
+
+        fi
+        
+
+7. Execute the command `source ~/.bashrc` to take effect.
+
+8. The command `conda create -n myenv python=3.*` is used to create your python environment.
+
+9. After you create the myenv, you can use the command `source activate myenv` (old conda version) to activate and get in the environment.
+
+10. `conda ***` install your required packages/libs.
+
+11. The command `nvidia-smi` can be used to check GPU peformance and information, `nvidia-smi -l 1` to update the GPU (dynamic) information per second. `htop` can be used to check CPU information.
+
+12. If you suspend your programme manually, remember to release GPU memory by `kill -9 PID`.
+
+13. If you do not want you programme suspended when you log out, please use `nohup`. For example, `nohup python xxx.py > output.txt 2>&1 &`. 2>1& means the stderr will be directed to stdout. see details [nohup](https://en.wikipedia.org/wiki/Nohup)
+
+14. In order to upload your code to server, you can run `git clone` (if you have already build the repositoary in Github, Gitlab etc). Also, you can use `git pull` to update your code in server. Do remember, your code may have some outputs (e.g., csv), they are not tracked by git until the commit, which means the outputs will not be synchronized (deleted) by `git pull`. In case the ouputs affects next round experimental output, you can `rm xxx` or `git clean` them.
+
+15. If you have some outputs (e.g. txt, csv), you can use `scp xxx@ssh.macs.hw.ac.uk:~/xxx/xxx/targetfile ~/localfile` to copy the file from server to local. see details [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol#:~:text=Secure%20copy%20protocol%20(SCP)%20is,Protocol%20and%20the%20program%20itself.)
+
+16. If you are not familiar with Unix commands, you can use [Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh). You just need to open Vscode and install the extension. Then, you will able to access the server directory with user interface after you config the `ssh` connection. You may not able to directly connect to 'thanos', so you need to config the ssh with the jump from jove to thanos (see below). Then you can set the conda environment in the server as your local environment. (P.S. You need to download Openssh via Windows10's 'manage optional feature' as admin if you use Windows)
+
+       
+        Host jove
+        HostName ssh.macs.hw.ac.uk
+        User xxxx
+
+        Host thanos
+        HostName thanos.macs.hw.ac.uk
+        User xxx
+        ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -W %h:%p jove ## (windows)
+        ProxyCommand ssh -W %h:%p jove ## (Ubuntu)
+
+  
+
+17. Specify a GPU to run your programme by `os.environ['CUDA_VISIBLE_DEVICES'] = '2'`
+
+18. For convenience, (In Linux) you can `vim  ~/.ssh/config` and add the below code. Then, you can use `ssh hw` to log in, instead of `ssh xxx@ssh.macs.hw.ac.uk`. This revision also works for `scp`.
+
+        
+        Host hw
+
+        Hostname ssh.macs.hw.ac.uk
+
+        User xxx
+     
+
+19. You may favour [tmux terminal](https://en.wikipedia.org/wiki/Tmux), it provides more features than ubuntu terminal.
+
+20. When you run your code in GPUs, strongly suggest you set appropriate batch size (128, 256, etc), larger batch size will help GPUs release more power.
+
+21. GPU memory and utility are affected each other to some degree. Memory consuming depends on the size and complexity of model, and batch size. Large batch size will increase the GPU utility. However, the utility really also depends on model complexity. If a model simple enough, whatever how large of your batch size, the utility always keeps a low level.
+
+22. Using Pytorch no_grad() when you evaluate or test model would help you to improve GPUs utilities and save GPUs memory. You can also manually release GPU memory and reflect on `Nvidia-smi` by `torch.cuda.empty_cache()`. Even Pytorch will release GPU memory automatically like Python memory management, but it may not reflect on nividia-smi immediately.
+
+23. By default, TensorFlow maps nearly all of the GPU memory of all GPUs (subject to CUDA_VISIBLE_DEVICES) visible to the process. This is done to more efficiently use the relatively precious GPU memory resources on the devices by reducing memory fragmentation. To limit TensorFlow to a specific set of GPUs we use the `tf.config.experimental.set_visible_devices` method. [Details](https://www.tensorflow.org/guide/gpu#:~:text=Limiting%20GPU%20memory%20growth,-By%20default%2C%20TensorFlow&text=To%20limit%20TensorFlow%20to%20a,config.experimental.set_visible_devices%20method.&text=In%20some%20cases%20it%20is,is%20needed%20by%20the%20process.)

@@ -16,6 +16,7 @@ nav_order: 2
 * means equal authorship, in random order.<br />
 <br />
 <ul>
+<li>Song, J., <u>Yuan, Y.*</u> and Pang, W., 2024. SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm. <i>arXiv preprint arXiv:2402.07244</i></li>
 
 <li><u>Yuan, Y.*</u>, Yang, Z.*, Xu, Y.*, Zhan, S., Bai, H. and Chen, K., 2023. FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross-Entropy. <i>Thirty-seventh Conference on Neural Information Processing Systems (NIPS 2023)</i>.</li>
 
