@@ -1,65 +1,27 @@
 ---
 layout: page
-title: projects
+title: activities
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
+<ul>
+<li><p>Distinguished Guest: 2023 Scottish Young Scholars Academic Forum, University of Strathclyde, 4 Dec 2023.</p></li>
+<li><p>Guest Lectuer: Graph Neural Networks: Methods, Applications, and Challenges, Heriot-Watt University, 13 Oct 2023.</p></li>
+<li><p>Poster: Navigating Public Sentiment in the Circular Economy through Topic Modelling
+, <a href="https://www.rsc.org/events/detail/76880/circular-chemical-economy-summer-school">Circular Chemical Economy Summer School</a>, 5-7 Sep 2023.</p></li>
+<li><p>Poster: Data-driven Approaches to Protecting Minority Ethnic Communities Online, <a href="https://thenationalrobotarium.com/">The National Robotarium</a>, 28 Sep 2021.</p></li>
+<li><p>Speaker ~ <a href="https://www.ai3sd.org/">AI3SD</a> Autumn Seminar VIII: Molecules, Graphs & Networks, 1 Dec 2021.</p> </li>
+<li><p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">The Genetic and Evolutionary Computation Conference</a>, 10,13 July 2021.</p> </li>
+<li><p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">IEEE Congress on Evolutionary Computation</a>, 28 June 2021.</p> </li>
+<li><p>UKRI-BBSRC Artificial intelligence in the biosciences, 19 May 2021.</p></li>
+<li><p>Speaker ~ Ph.D talk: HPO for GNN on Molecular Property Prediction, 28 April 2021.</p> </li>
+<li><p>Speaker ~ Ph.D progression talk: Automated Graph Convolutional Neural Networks with Dual Levels Feature Input for Predicting Molecular Property, 10 Dec 2020.</p> </li>
+<li><p>Chinses Student and Scholars Association, 2020 - Present</p></li>
+<li><p><a href="https://www.sicsa.ac.uk/news-events/phd-conference/">SICSA PhD Conference 2019</a>.</p> </li>
+<li><p>Workshop of <a href="https://www.hartree.stfc.ac.uk/Pages/home.aspx">Hartree Centre HPC</a>, 2017.</p> </li>
+</ul>
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
