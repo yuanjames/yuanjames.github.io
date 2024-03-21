@@ -14,7 +14,7 @@ nav_order: 2
 <div class="publications">
 
 * means equal authorship, in random order.<br />
-\# means corresponding author.<br />
+# means corresponding author.<br />
 <br />
 <ul>
 <li>Song, J., <u>Yuan, Y.*</u> and Pang, W., 2024. SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm. <i>arXiv preprint arXiv:2402.07244</i></li>
@@ -23,7 +23,7 @@ nav_order: 2
 
 <li>Hasan, S. and <u>Yuan, Y.</u>, 2023. Minority Ethnic Vulnerabilities in the Use of Digital Housing Services Across Age Groups. <i>European Network for Housing Research</i>.</li>
 
-<li>Yang, Z., Bai, H., Luo, Z., Xu, Y., Pang, W., Wang, Y., Yuan, Y. and <u>Yuan, Y\#.</u>, 2023. PaCaNet: A study on cyclegan with transfer learning for diversifying fused chinese painting and calligraphy. <i>arXiv preprint arXiv:2301.13082</i>.</li>
+<li>Yang, Z., Bai, H., Luo, Z., Xu, Y., Pang, W., Wang, Y., Yuan, Y. and <u>Yuan, Y#.</u>, 2023. PaCaNet: A study on cyclegan with transfer learning for diversifying fused chinese painting and calligraphy. <i>arXiv preprint arXiv:2301.13082</i>.</li>
 
 <li><u>Yuan, Y.</u>, Wang, W. and Pang, W., 2021, July. Which hyperparameters to optimise? an investigation of evolutionary hyperparameter optimisation in graph neural network for molecular property prediction. <i>In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO) Companion</i> (pp. 1403-1404).</li>
 
