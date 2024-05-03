@@ -19,7 +19,7 @@ nav_order: 2
 <ul>
 <li><u>Yuan, Y.*</u>, Wang, W., Li, X., Chen, K., Yonghan, Z., and Pang, W., 2024. Evolving Molecular Graph Neural Networks with Hierarchical Evaluation Strategy. <i>Accepted by Genetic and Evolutionary Computation Conference (GECCO) 2024</i>.</li>
 
-<li>Song, J., <u>Yuan, Y.*</u> and Pang, W., 2024. SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm. <i>arXiv preprint arXiv:2402.07244</i></li>
+<li>Song, J., <u>Yuan, Y.*</u> and Pang, W., 2024. SAIS: A Novel Bio-Inspired Artificial Immune System Based on Symbiotic Paradigm. <i>Accepted by Genetic and Evolutionary Computation Conference (GECCO) Workshop 2024</i></li>
 
 <li><u>Yuan, Y.*</u>, Yang, Z.*, Xu, Y.*, Zhan, S., Bai, H. and Chen, K., 2023. FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross-Entropy. <i>Thirty-seventh Conference on Neural Information Processing Systems (NIPS 2023)</i>.</li>
 
