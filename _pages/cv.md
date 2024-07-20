@@ -34,7 +34,7 @@ description:
 <span class="font-weight-bold">Academic Services</span>
 <ul>
 <li>Funding Reviewer: <p><a href='https://www.rephrain.ac.uk/'>National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online (REPHRAIN)</a></p></li>
-<li>Journal Reviewer: <p><a>Journal of Heuristics, Applied Artificial Intelligence, Complex & Intelligent Systems, Information Processing and Management</a></p> </li>
+<li>Journal Reviewer: <p><a>IEEE Transactions on Emerging Topics in Computational Intelligence, Journal of Heuristics, Applied Artificial Intelligence, Complex & Intelligent Systems, Information Processing and Management</a></p> </li>
 <li>Conferences Reviwer: <p><a>ACAIT, ICME</a></p> </li>
 
 <span class="font-weight-bold">Others</span>
