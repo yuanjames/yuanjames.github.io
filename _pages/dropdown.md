@@ -7,7 +7,7 @@ dropdown: true
 children:
 
   - title: grants and awards
-    permalink: /people/
+    permalink: /grants/
   - title: divider
   - title: cv
     permalink: /cv/
