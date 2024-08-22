@@ -7,14 +7,14 @@ nav: false
 nav_order: 7
 ---
 
-<h1 class="post-title">Grant</h1>
+<h1 class="post-title">grant</h1>
 
 <ul>
 
 <li>Principle Investigator - “Graph Neural Networks for Recommendation System with Fairness and Safety”, EPSRC IAA, Total Value: £8,690.72, April 2023- June 2023.</li>
 </ul>
 
-<h1 class="post-title">Award</h1>
+<h1 class="post-title">award</h1>
 <ul>
 <li>Principal’s Research Impact and Engagement Awards (Sustainable Futures), Project: Circular Chemical Economy (UKRI funded), Heriot-Watt University, 2024.</li>
 </ul>
