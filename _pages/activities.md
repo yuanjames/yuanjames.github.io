@@ -11,7 +11,7 @@ nav_order: 7
 <li>Guest Lectuer: Graph Neural Networks: Methods, Applications, and Challenges, Heriot-Watt University, 13 Oct 2023.</li>
 <li>Poster: Navigating Public Sentiment in the Circular Economy through Topic Modelling
 , <a href="https://www.rsc.org/events/detail/76880/circular-chemical-economy-summer-school">Circular Chemical Economy Summer School</a>, 5-7 Sep 2023.</li>
-<li>Poster: Data-driven Approaches to Protecting Minority Ethnic Communities Online, <a href="https://thenationalrobotarium.com/">The National Robotarium</a>, 28 Sep 2021.</li>
+<li>Poster: Data-driven Approaches to Protecting Minority Ethnic Communities Online, <a href="https://thenationalrobotarium.com/">The National Robotarium</a>, 28 Sep 2022.</li>
 <li>Speaker ~ <a href="https://www.ai3sd.org/">AI3SD</a> Autumn Seminar VIII: Molecules, Graphs & Networks, 1 Dec 2021.</li>
 <!-- <li><p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">The Genetic and Evolutionary Computation Conference</a>, 10,13 July 2021.</p> </li>
 <li><p>Speaker ~ <a href="https://cec2021.mini.pw.edu.pl">IEEE Congress on Evolutionary Computation</a>, 28 June 2021.</p> </li>
