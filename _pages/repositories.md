@@ -16,4 +16,4 @@ IEEE Transactions on Emerging Topics in Computational Intelligence; Complex & In
 
 **Conference Reviewer**
 
-ICLR, LOG, ICME
+ICLR, AAAI, LOG, ICME
