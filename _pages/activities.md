@@ -7,6 +7,7 @@ nav_order: 7
 
 ---
 <ul>
+<li>Guest Lecture: Exploring Graph Neural Networks: Techniques and Applications, Heriot-Watt University, 8 Oct 2024.</li>
 <li>Distinguished Guest: 2023 Scottish Young Scholars Academic Forum, University of Strathclyde, 4 Dec 2023.</li>
 <li>Guest Lectuer: Graph Neural Networks: Methods, Applications, and Challenges, Heriot-Watt University, 13 Oct 2023.</li>
 <li>Poster: Navigating Public Sentiment in the Circular Economy through Topic Modelling
