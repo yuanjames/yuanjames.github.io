@@ -10,6 +10,8 @@ nav_order: 2
 * <a href= 'https://scholar.google.com/citations?user=nT2T8M4AAAAJ&hl=en'>Google Scholar</a>
 
 <ol>
+<li><b>Yuan, Y.</b>, Chen, K., Rizvi, M., Baillie, L. and Pang, W., 2024. Quantifying the Cross-sectoral Intersecting Discrepancies within Multiple Groups Using Latent Class Analysis Towards Fairness. arXiv preprint arXiv:2407.03133. accepted by IJCNN 2025</li>
+
 <li>Song, J., <b>Yuan, Y.*</b>, Chang, K., Xu, B., Xuan, J. and Pang, W., 2024. Exploring Public Attention in the Circular Economy through Topic Modelling with Twin Hyperparameter Optimisation. <i>Energy and AI, 18,</i> 100433</li>
 
 <li><b>Yuan, Y.</b>, Wang, W., Li, X., Chen, K., Yonghan, Z. and Pang, W., 2024. Evolving Molecular Graph Neural Networks with Hierarchical Evaluation Strategy. <i>Genetic and Evolutionary Computation Conference (GECCO) 2024</i>.</li>
