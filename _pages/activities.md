@@ -4,7 +4,6 @@ permalink: /activities/
 title: activities
 nav: false
 nav_order: 7
-
 ---
 <ul>
 <li>Guest Lecture: Exploring Graph Neural Networks: Techniques and Applications, Heriot-Watt University, 8 Oct 2024.</li>
