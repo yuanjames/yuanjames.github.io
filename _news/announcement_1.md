@@ -6,4 +6,5 @@ related_posts: false
 ---
 
 Two papers are accepeted by EMNLP 2025.
+One paper is accepeted by Sigraph Asia 2025.
 
