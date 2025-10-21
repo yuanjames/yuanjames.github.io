@@ -5,7 +5,8 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepeted by EMNLP 2025.
+- Two papers are accepeted by EMNLP 2025.
+- One paper is accepeted by SIGGRAPH Asia 2025.
+- One paper is accepeted by Transactions on Machine Learning Research.
 
-One paper is accepeted by SIGGRAPH Asia 2025.
 
