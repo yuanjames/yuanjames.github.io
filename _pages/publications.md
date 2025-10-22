@@ -14,11 +14,11 @@ nav_order: 2
 
 <li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.§</b>$, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>
 
-<li>Yang, Z., Song, J., Luo, Z., Yang, Z., Xu, Y., Lan, J., Zhang, Y., Pang, W., Song, S. and <b>Yuan, Y§.</b>, 2025. ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements. <i>SIGGRAPH ASIA 2025</i>.</li>
+<li>Yang, Z., Song, J., Luo, Z., Yang, Z., Xu, Y., Lan, J., Zhang, Y., Pang, W., Song, S. and <b>Yuan, Y.§</b>, 2025. ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements. <i>SIGGRAPH ASIA 2025</i>.</li>
 
 <li>Liu, Z., Li, Y., Xu, Y., Wang, Y., Yuan, Y. and Yang, Z., 2025. Evaluating Text Generation Quality Using Spectral Distances of Surprisal. <i>accepted by EMNLP 2025.</i></li>
 
-<li>Yang, Z., Song, J., Song, S., Pang, W. and <b>Yuan, Y§.</b>, 2025. MERMAID: Multi-perspective Self-reflective Agents with Generative Augmentation for Emotion Recognition. <i>accepted by EMNLP 2025.</i></li>
+<li>Yang, Z., Song, J., Song, S., Pang, W. and <b>Yuan, Y.§</b>, 2025. MERMAID: Multi-perspective Self-reflective Agents with Generative Augmentation for Emotion Recognition. <i>accepted by EMNLP 2025.</i></li>
 
 <li><b>Yuan, Y.</b>, Chen, K., Rizvi, M., Baillie, L. and Pang, W., 2025. Quantifying the Cross-sectoral Intersecting Discrepancies within Multiple Groups Using Latent Class Analysis Towards Fairness. <i>accepted by IJCNN 2025 (Oral).</i></li>
 
