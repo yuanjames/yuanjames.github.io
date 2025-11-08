@@ -9,5 +9,6 @@ related_posts: false
 - One paper is accepeted by SIGGRAPH Asia 2025.
 - One paper is accepeted by Transactions on Machine Learning Research.
 - One paper is accepeted by AAAI 2026.
+- 2025 iGEM Competition, Gold Medal.
 
 
