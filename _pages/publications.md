@@ -12,7 +12,9 @@ nav_order: 2
 
 <ol>
 
-<li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.§</b>$, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>
+<li>Yang, Z., <b>Yuan, Y.*</b>, Jiang, X., An, B. and Pang, W., 2026. InEx: Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration. <i>accepted by AAAI 2026</i>.</li>
+
+<li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.§</b>, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>
 
 <li>Yang, Z., Song, J., Luo, Z., Yang, Z., Xu, Y., Lan, J., Zhang, Y., Pang, W., Song, S. and <b>Yuan, Y.§</b>, 2025. ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements. <i>SIGGRAPH ASIA 2025</i>.</li>
 
