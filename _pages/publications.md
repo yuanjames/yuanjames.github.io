@@ -12,7 +12,7 @@ nav_order: 2
 
 <ol>
 
-<li>Yang, Z., Pang, W. and <b>Yuan, Y.*</b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.
+<li>Yang, Z., Pang, W. and <b>Yuan, Y.§</b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.
 
 <li>Yang, Z., <b>Yuan, Y.*</b>, Jiang, X., An, B. and Pang, W., 2026. InEx: Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration. <i>accepted by AAAI 2026</i>.</li>
 
