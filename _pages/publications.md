@@ -12,6 +12,8 @@ nav_order: 2
 
 <ol>
 
+<li>Yang, Z., Pang, W. and <b>Yuan, Y.*</b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.
+
 <li>Yang, Z., <b>Yuan, Y.*</b>, Jiang, X., An, B. and Pang, W., 2026. InEx: Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration. <i>accepted by AAAI 2026</i>.</li>
 
 <li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.§</b>, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>

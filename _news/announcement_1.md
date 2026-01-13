@@ -5,6 +5,7 @@ inline: true
 related_posts: false
 ---
 
+- One paper is accepeted by The Web Conference 2026.
 - Two papers are accepeted by EMNLP 2025.
 - One paper is accepeted by SIGGRAPH Asia 2025.
 - One paper is accepeted by Transactions on Machine Learning Research.
