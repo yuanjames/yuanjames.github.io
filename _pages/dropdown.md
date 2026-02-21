@@ -9,8 +9,8 @@ children:
   - title: grants and awards
     permalink: /grants/
   - title: divider
-  - title: cv
-    permalink: /cv/
+  - title: projects
+    permalink: /projects/
   - title: divider
   - title: activities
     permalink: /activities/

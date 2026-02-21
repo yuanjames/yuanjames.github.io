@@ -11,7 +11,7 @@ nav_order: 2
 * <a href= 'https://scholar.google.com/citations?user=nT2T8M4AAAAJ&hl=en'>Google Scholar</a>
 
 <ol>
-<li>Yang, Z., Yang, Z., Zhan, S., Yue, T., Pang, W. and <b>Yuan, Y§.</b>, 2026. SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration. <i>accepted by CVPR 2026</i>.</li>
+<li>Yang, Z., Yang, Z., Zhan, S., Yue, T., Pang, W. and <b>Yuan, Y.§</b>, 2026. SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration. <i>accepted by CVPR 2026</i>.</li>
 
 <li>Yang, Z., Pang, W. and <b>Yuan, Y.§</b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.</li>
 
