@@ -37,7 +37,7 @@ nav_order: 2
 
 <li>Hasan, S. and <b>Yuan, Y.</b>, 2023. Minority Ethnic Vulnerabilities in the Use of Digital Housing Services Across Age Groups. <i>European Network for Housing Research</i>.</li>
 
-<li>Yang, Z., Bai, H., Luo, Z., Xu, Y., Pang, W., Wang, Y., Yuan, Y. and <b>Yuan, Y.</b> (corresponding author), 2023. PaCaNet: A study on cyclegan with transfer learning for diversifying fused chinese painting and calligraphy. <i>arXiv preprint arXiv:2301.13082</i>.</li>
+<li>Yang, Z., Bai, H., Luo, Z., Xu, Y., Pang, W., Wang, Y., Yuan, Y. and <b>Yuan, Y.<sup>§</sup></b> , 2023. PaCaNet: A study on cyclegan with transfer learning for diversifying fused chinese painting and calligraphy. <i>arXiv preprint arXiv:2301.13082</i>.</li>
 
 <li><b>Yuan, Y.</b>, Wang, W. and Pang, W., 2021, July. Which hyperparameters to optimise? an investigation of evolutionary hyperparameter optimisation in graph neural network for molecular property prediction. <i>In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO) Companion</i> (pp. 1403-1404).</li>
 
