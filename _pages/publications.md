@@ -11,19 +11,19 @@ nav_order: 2
 * <a href= 'https://scholar.google.com/citations?user=nT2T8M4AAAAJ&hl=en'>Google Scholar</a>
 
 <ol>
-<li>Yang, Z., Yang, Z., Zhan, S., Yue, T., Pang, W. and <b>Yuan, Y.§</b>, 2026. SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration. <i>accepted by CVPR 2026</i>.</li>
+<li>Yang, Z., Yang, Z., Zhan, S., Yue, T., Pang, W. and <b>Yuan, Y.<sup>§</sup></b>, 2026. SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration. <i>accepted by CVPR 2026</i>.</li>
 
-<li>Yang, Z., Pang, W. and <b>Yuan, Y.§</b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.</li>
+<li>Yang, Z., Pang, W. and <b>Yuan, Y.<sup>§</sup></b>, 2026. XR: Cross-Modal Agents for Composed Image Retrieval. <i>accepted by The Web Conference 2026</i>.</li>
 
 <li>Yang, Z., <b>Yuan, Y.*</b>, Jiang, X., An, B. and Pang, W., 2026. InEx: Hallucination Mitigation via Introspection and Cross-Modal Multi-Agent Collaboration. <i>accepted by AAAI 2026</i>.</li>
 
-<li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.§</b>, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>
+<li>Yang, Z., Xu, D., Pang, W. and <b>Yuan, Y.<sup>§</sup></b>, 2025. Script: Graph-Structured and Query-Conditioned Semantic Token Pruning for Multimodal Large Language Models. <i>accepted by Transactions on Machine Learning Research</i>.</li>
 
-<li>Yang, Z., Song, J., Luo, Z., Yang, Z., Xu, Y., Lan, J., Zhang, Y., Pang, W., Song, S. and <b>Yuan, Y.§</b>, 2025. ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements. <i>SIGGRAPH ASIA 2025</i>.</li>
+<li>Yang, Z., Song, J., Luo, Z., Yang, Z., Xu, Y., Lan, J., Zhang, Y., Pang, W., Song, S. and <b>Yuan, Y.<sup>§</sup></b>, 2025. ReChar: Revitalising Characters with Structure Preserved and User-Specified Aesthetic Enhancements. <i>SIGGRAPH ASIA 2025</i>.</li>
 
-<li>Liu, Z., Li, Y., Xu, Y., Wang, Y., Yuan, Y. and Yang, Z., 2025. Evaluating Text Generation Quality Using Spectral Distances of Surprisal. <i>accepted by EMNLP 2025.</i></li>
+<li>Liu, Z., Li, Y., Xu, Y., Wang, Y., <b>Yuan, Y.</b> and Yang, Z., 2025. Evaluating Text Generation Quality Using Spectral Distances of Surprisal. <i>accepted by EMNLP 2025.</i></li>
 
-<li>Yang, Z., Song, J., Song, S., Pang, W. and <b>Yuan, Y.§</b>, 2025. MERMAID: Multi-perspective Self-reflective Agents with Generative Augmentation for Emotion Recognition. <i>accepted by EMNLP 2025.</i></li>
+<li>Yang, Z., Song, J., Song, S., Pang, W. and <b>Yuan, Y.<sup>§</sup></b>, 2025. MERMAID: Multi-perspective Self-reflective Agents with Generative Augmentation for Emotion Recognition. <i>accepted by EMNLP 2025.</i></li>
 
 <li><b>Yuan, Y.</b>, Chen, K., Rizvi, M., Baillie, L. and Pang, W., 2025. Quantifying the Cross-sectoral Intersecting Discrepancies within Multiple Groups Using Latent Class Analysis Towards Fairness. <i>accepted by IJCNN 2025 (Oral).</i></li>
 
