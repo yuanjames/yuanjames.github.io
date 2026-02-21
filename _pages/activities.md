@@ -19,6 +19,5 @@ nav_order: 7
 <li><p>Speaker ~ Ph.D talk: HPO for GNN on Molecular Property Prediction, 28 April 2021.</p> </li>
 <li><p>Speaker ~ Ph.D progression talk: Automated Graph Convolutional Neural Networks with Dual Levels Feature Input for Predicting Molecular Property, 10 Dec 2020.</p> </li>
 <li><p>Chinses Student and Scholars Association, 2020 - Present</p></li>
-<li><p><a href="https://www.sicsa.ac.uk/news-events/phd-conference/">SICSA PhD Conference 2019</a>.</p> </li>
 <li><p>Workshop of <a href="https://www.hartree.stfc.ac.uk/Pages/home.aspx">Hartree Centre HPC</a>, 2017.</p> </li> -->
 </ul>

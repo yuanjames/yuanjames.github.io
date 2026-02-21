@@ -8,7 +8,7 @@ nav_order: 4
 ---
 **Funding Reviewer**
 <ol>
-<li><a href='https://www.rephrain.ac.uk/college-of-peer-reviewers/'>REPHRAIN</a>, National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online, £8.6M, UKRI.</li>
+<li><a href='https://www.rephrain.ac.uk/team/peer-reviewers/'>REPHRAIN</a>, National Research Centre on Privacy, Harm Reduction and Adversarial Influence Online, £8.6M, UKRI.</li>
 
 <li><a href='https://www.ukri.org/opportunity/ukri-metascience-ai-early-career-fellowships/'> Metascience AI Early Career Fellowships</a>, £4M, UKRI.</li>
 </ol>
