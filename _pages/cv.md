@@ -2,7 +2,7 @@
 layout: default
 permalink: /cv/
 title: cv
-nav: true
+nav: false
 nav_order: 7
 redirect_to: /assets/pdf/cv.pdf
 ---
