@@ -2,96 +2,95 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yingfang Yuan
+    - name: Position
+      value: Research Fellow (Postdoctoral Researcher)
+    - name: Institution
+      value: Heriot-Watt University, Edinburgh, UK
+    - name: Email
+      value: y.yuan@hw.ac.uk
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Heriot-Watt University, Edinburgh, UK (started at University of Aberdeen, 2018-2019)
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research on graph neural networks, AutoML, and hyperparameter optimisation.
+    - title: MSc in Big Data and High-Performance Computing
+      institution: University of Liverpool, Liverpool, UK
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Specialised in large-scale data processing and high-performance computing.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Fellow (Postdoctoral Researcher)
+      institution: School of Mathematical and Computer Sciences, Heriot-Watt University, Edinburgh, UK
+      year: 2024 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Member of the BCML Lab, supervised by Prof. Wei Pang.
+        - Research on agentic AI, multi-agent systems, and graph neural networks.
+    - title: Researcher Fellow
+      institution: Heriot-Watt University, Edinburgh, UK
+      year: 2022 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - EPSRC "The Protecting Minority Ethnic Communities Online" project.
+    - title: Researcher
+      institution: Heriot-Watt University, Edinburgh, UK
+      year: 2023 - 2025
       description:
+        - EPSRC "Digital Circular Chemical Economy" project.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Lecturer
+      institution: Heriot-Watt University, Edinburgh, UK
+      year: 2024 - now
+      description:
+        - F91 Artificial Intelligence (Coursera MSc Online Course).
+        - F90AM Advanced Machine Learning.
+    - title: Teaching Assistant
+      institution: Heriot-Watt University, Edinburgh, UK
+      year: 2019 - 2024
+      description:
+        - F20ML Statistical Machine Learning.
+        - F20BC/F21BC Bioinspired Computation.
+    - title: Teaching Assistant
+      institution: University of Aberdeen, Aberdeen, UK
+      year: 2018 - 2019
+      description:
+        - CS551G Data Mining and Visualisation.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Gold Medal, 2025 iGEM Competition
+    - year: 2024
       items:
-        - Max Planck Medal
+        - Principal's Research Impact and Engagement Awards (Sustainable Futures), Heriot-Watt University
+        - Best Presentation Award, 10th International Conference on Signal Processing
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Agentic AI and Multi-Agent Systems
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Large language model agents
+        - Multi-agent collaboration frameworks
+    - title: Graph Neural Networks
       items:
-        - Description 1.
-        - Description 2.
+        - Molecular property prediction
+        - Evolutionary and automated GNN design
+    - title: AutoML
+      items:
+        - Hyperparameter optimisation
+        - Neural architecture search
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

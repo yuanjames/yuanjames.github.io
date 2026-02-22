@@ -5,9 +5,9 @@ inline: true
 related_posts: false
 ---
 - One paper is accepted by CVPR 2026.
-- One paper is accepeted by The Web Conference 2026.
-- Two papers are accepeted by EMNLP 2025.
-- One paper is accepeted by SIGGRAPH Asia 2025.
-- One paper is accepeted by Transactions on Machine Learning Research.
-- One paper is accepeted by AAAI 2026.
+- One paper is accepted by The Web Conference 2026.
+- Two papers are accepted by EMNLP 2025.
+- One paper is accepted by SIGGRAPH Asia 2025.
+- One paper is accepted by Transactions on Machine Learning Research.
+- One paper is accepted by AAAI 2026.
 - 2025 iGEM Competition, Gold Medal.

@@ -1,34 +1,40 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"yang":
+  - firstname: ["Zhijun", "Z."]
+    url: https://scholar.google.com/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"pang":
+  - firstname: ["Wei", "W."]
+    url: https://scholar.google.com/citations?user=pang-wei
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"song":
+  - firstname: ["Jiaming", "J."]
+    url: https://scholar.google.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wang":
+  - firstname: ["Wei", "W."]
+    url: https://scholar.google.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"chen":
+  - firstname: ["Kaiyu", "K."]
+    url: https://scholar.google.com/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"xu":
+  - firstname: ["Yida", "Y.", "Dequan", "D.", "Bin", "B."]
+    url: https://scholar.google.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"liu":
+  - firstname: ["Zhenghao", "Z."]
+    url: https://scholar.google.com/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhan":
+  - firstname: ["Shu", "S."]
+    url: https://scholar.google.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"bai":
+  - firstname: ["He", "H."]
+    url: https://scholar.google.com/
+
+"luo":
+  - firstname: ["Zhen", "Z."]
+    url: https://scholar.google.com/
+
