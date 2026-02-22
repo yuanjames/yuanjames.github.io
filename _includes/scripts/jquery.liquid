@@ -1,6 +1,5 @@
-<!-- jQuery (defer: reduces render blocking, executes in order) -->
+<!-- jQuery (must load synchronously - inline scripts and no_defer.js depend on it) -->
 <script
-  defer
   src="{{ site.third_party_libraries.jquery.url.js }}"
   integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
   crossorigin="anonymous"

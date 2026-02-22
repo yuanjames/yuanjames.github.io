@@ -1,7 +1,6 @@
-<!-- Bootstrap & MDB scripts (defer: reduces render blocking) -->
-<script defer src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<!-- Bootstrap & MDB scripts (must load before no_defer.js which uses Bootstrap) -->
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <script
-  defer
   src="{{ site.third_party_libraries.mdb.url.js }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
   crossorigin="anonymous"
