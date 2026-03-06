@@ -11,6 +11,7 @@ nav_order: 7
 <ul>
 <li>Co-Investigator - “Agentic AI for Causality Rules in Green Hydrogen Certificate Markets,”, Interface, Total Value: £7,000, Jan 2026- April 2026.</li>
 <li>Principle Investigator - “Graph Neural Networks for Recommendation System with Fairness and Safety”, EPSRC IAA, Total Value: £8,690.72, April 2023- June 2023.</li>
+<li>Co-Investigator - “Agentic AI Simulation of Green Premium Certificate Markets for Maritime Decarbonisation ”, Centre for Financing a Sustainable Future, Total Value: £5,000, April 2026- Aug 2026.</li>
 </ul>
 
 <h1 class="post-title">award</h1>
